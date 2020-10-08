@@ -22,7 +22,7 @@ router.get("/services", function (req, res, next) {
 });
 
 /* GET About page. */
-router.get("/Home", function (req, res, next) {
+router.get("/home", function (req, res, next) {
   res.render("index", { title: "Home" });
 });
 
